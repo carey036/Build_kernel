@@ -22,7 +22,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         repository: ${{ github.event.inputs.repo }}
-        branch: ${{github.event.inputs.branch}}
+        path: ${{github.event.inputs.branch}}
         
     - name: Checkout zipper
       uses: actions/checkout@v2
